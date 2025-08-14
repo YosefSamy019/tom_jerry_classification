@@ -1,4 +1,4 @@
-```markdown
+
 # Tom & Jerry Image Classification – End-to-End Pipeline
 
 This project implements a **full deep learning pipeline** for image classification using the [Tom & Jerry Image Classification Dataset](https://www.kaggle.com/datasets/balabaskar/tom-and-jerry-image-classification) from Kaggle.  
@@ -8,14 +8,14 @@ It covers **data loading, preprocessing, augmentation, model building, training,
 
 ## 📂 Project Structure
 
-```
+
 
 ├── data/                # Dataset (downloaded from KaggleHub)
 ├── models\_cache/         # Saved model weights & histories
 ├── main.py               # Main training & evaluation code
 ├── README.md             # Documentation
 
-````
+`
 
 ---
 
@@ -159,22 +159,22 @@ It covers **data loading, preprocessing, augmentation, model building, training,
 ## 🚀 How to Run
 
 1. Install dependencies:
-```bash
+bash
 pip install tensorflow scikit-learn kagglehub opencv-python matplotlib seaborn
-````
+`
 
 2. Download and prepare the dataset:
 
-```python
+python
 import kagglehub
 dataset_path = kagglehub.dataset_download("balabaskar/tom-and-jerry-image-classification")
-```
+
 
 3. Run the script:
 
-```bash
+bash
 python main.py
-```
+
 
 ---
 
@@ -183,6 +183,6 @@ python main.py
 
 This project is open-source for learning and experimentation purposes.
 
-```
+
 
 ---
